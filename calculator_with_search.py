@@ -1,4 +1,5 @@
 # calculator_with_search.py
+#Oliver Omulando
 # smart calculator with Equation solver
 # Users can search concepts from chapter 3
 
