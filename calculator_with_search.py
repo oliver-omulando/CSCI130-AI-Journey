@@ -1,5 +1,5 @@
 # calculator_with_search.py
-#Oliver Omulando
+#Oliver Omulando CSCI 130
 # smart calculator with Equation solver
 # Users can search concepts from chapter 3
 
