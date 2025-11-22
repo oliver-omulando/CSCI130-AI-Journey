@@ -1,0 +1,11 @@
+textblob
+Flask
+pandas
+nltk
+matplotlib
+seaborn
+tensorflow 
+keras 
+pillow 
+numpy 
+opencv-python 
