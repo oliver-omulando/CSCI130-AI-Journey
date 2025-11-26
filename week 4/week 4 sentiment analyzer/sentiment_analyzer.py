@@ -170,4 +170,23 @@ if __name__ == '__main__':
     # Print summary dataframe
     df = analyzer.analyze_multiple_reviews(sample_reviews)
     # Create and save visualization
-    analyzer.visualize_sentiment(sample_reviews)
+    fig = analyzer.visualize_sentiment(sample_reviews)
+
+    # Make outputs more visible when running from an editor/run button
+    print('\nSummary DataFrame:')
+    try:
+        # print full small dataframe for clarity
+        print(df.to_string(index=False))
+    except Exception:
+        print(df)
+
+    import os
+    saved_path = os.path.abspath('sentiment_visualization.png')
+    print(f"\nVisualization saved to: {saved_path}")
+
+    # Pause so the Run button / terminal doesn't immediately close
+    try:
+        input('\nPress Enter to exit...')
+    except Exception:
+        # If input is not available (non-interactive), just pass
+        pass

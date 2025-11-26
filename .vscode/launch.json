@@ -1,0 +1,23 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run Sentiment Analyzer (debugpy)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/week 4/week 4 sentiment analyzer/sentiment_analyzer.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}/week 4/week 4 sentiment analyzer",
+      "justMyCode": true
+    },
+    {
+      "name": "Run test_sentiment (debugpy, no PYTHONPATH)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/week 4/week 4 sentiment analyzer/test_sentiment.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}/week 4/week 4 sentiment analyzer",
+      "justMyCode": true
+    }
+  ]
+}

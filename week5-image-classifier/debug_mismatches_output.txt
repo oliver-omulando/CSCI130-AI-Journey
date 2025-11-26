@@ -1,0 +1,501 @@
+2025-11-22 07:16:23.986425: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-11-22 07:16:36.461838: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-11-22 07:16:37.302451: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 AVX_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING:tensorflow:From C:\Users\oliver\program\envs\csci130-tf\lib\site-packages\keras\src\backend\tensorflow\core.py:232: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From C:\Users\oliver\program\envs\csci130-tf\lib\site-packages\keras\src\backend\tensorflow\core.py:232: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+Found 49 mismatches; debugging up to 50
+Loading model from: C:\Users\oliver\OneDrive - North Dakota University System\CSCI130-AI-Journey\week5-image-classifier\model\keras_model.keras
+Model loaded with Keras loader.
+
+=== DEBUG: C:\Users\oliver\Downloads\sad facial expression\bearded-young-man-wearing-shirt.jpg
+
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 391ms/step
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 401ms/step
+RAW TYPE: <class 'dict'>
+DICT output keys: ['sequential_3']
+  key=sequential_3 type=<class 'numpy.ndarray'>
+    shape= (1, 3) dtype= float32
+    sample= [0.0010831484105437994, 0.20284588634967804, 0.79607093334198]
+
+=== DEBUG: C:\Users\oliver\Downloads\sad facial expression\pexels-alex-green-5699771.jpg
+
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 89ms/step
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 101ms/step
+RAW TYPE: <class 'dict'>
+DICT output keys: ['sequential_3']
+  key=sequential_3 type=<class 'numpy.ndarray'>
+    shape= (1, 3) dtype= float32
+    sample= [0.027282575145363808, 0.5314745903015137, 0.4412428140640259]
+
+=== DEBUG: C:\Users\oliver\Downloads\sad facial expression\pexels-iamikeee-3304341.jpg
+
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 89ms/step
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 89ms/step
+RAW TYPE: <class 'dict'>
+DICT output keys: ['sequential_3']
+  key=sequential_3 type=<class 'numpy.ndarray'>
+    shape= (1, 3) dtype= float32
+    sample= [0.24540174007415771, 0.0022922190837562084, 0.7523061037063599]
+
+=== DEBUG: C:\Users\oliver\Downloads\sad facial expression\pexels-keira-burton-6624305.jpg
+
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 101ms/step
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 123ms/step
+RAW TYPE: <class 'dict'>
+DICT output keys: ['sequential_3']
+  key=sequential_3 type=<class 'numpy.ndarray'>
+    shape= (1, 3) dtype= float32
+    sample= [0.6093531847000122, 0.3471473455429077, 0.043499428778886795]
+
+=== DEBUG: C:\Users\oliver\Downloads\sad facial expression\pexels-kindelmedia-8173255.jpg
+
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 146ms/step
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 167ms/step
+RAW TYPE: <class 'dict'>
+DICT output keys: ['sequential_3']
+  key=sequential_3 type=<class 'numpy.ndarray'>
+    shape= (1, 3) dtype= float32
+    sample= [0.00013677326205652207, 0.09472380578517914, 0.9051393866539001]
+
+=== DEBUG: C:\Users\oliver\Downloads\sad facial expression\pexels-olly-3823495.jpg
+
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 136ms/step
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 161ms/step
+RAW TYPE: <class 'dict'>
+DICT output keys: ['sequential_3']
+  key=sequential_3 type=<class 'numpy.ndarray'>
+    shape= (1, 3) dtype= float32
+    sample= [3.875068068737164e-05, 0.10424287617206573, 0.8957183957099915]
+
+=== DEBUG: C:\Users\oliver\Downloads\sad facial expression\pexels-paul-kerby-genil-1606168-3084158.jpg
+
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 141ms/step
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 168ms/step
+RAW TYPE: <class 'dict'>
+DICT output keys: ['sequential_3']
+  key=sequential_3 type=<class 'numpy.ndarray'>
+    shape= (1, 3) dtype= float32
+    sample= [0.16922113299369812, 0.19864320755004883, 0.6321356892585754]
+
+=== DEBUG: C:\Users\oliver\Downloads\sad facial expression\pexels-rdne-5543535.jpg
+
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 142ms/step
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 162ms/step
+RAW TYPE: <class 'dict'>
+DICT output keys: ['sequential_3']
+  key=sequential_3 type=<class 'numpy.ndarray'>
+    shape= (1, 3) dtype= float32
+    sample= [0.021498210728168488, 0.1424901783466339, 0.8360115885734558]
+
+=== DEBUG: C:\Users\oliver\Downloads\sad facial expression\pexels-rdne-9064380.jpg
+
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 178ms/step
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 209ms/step
+RAW TYPE: <class 'dict'>
+DICT output keys: ['sequential_3']
+  key=sequential_3 type=<class 'numpy.ndarray'>
+    shape= (1, 3) dtype= float32
+    sample= [4.100303340237588e-05, 0.25643548369407654, 0.7435234785079956]
+
+=== DEBUG: C:\Users\oliver\Downloads\sad facial expression\pexels-rowlandzy-231473-14052262.jpg
+
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 188ms/step
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 220ms/step
+RAW TYPE: <class 'dict'>
+DICT output keys: ['sequential_3']
+  key=sequential_3 type=<class 'numpy.ndarray'>
+    shape= (1, 3) dtype= float32
+    sample= [0.005636963527649641, 0.5684177279472351, 0.4259452819824219]
+
+=== DEBUG: C:\Users\oliver\Downloads\sad facial expression\pexels-timur-weber-8560260.jpg
+
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 190ms/step
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 225ms/step
+RAW TYPE: <class 'dict'>
+DICT output keys: ['sequential_3']
+  key=sequential_3 type=<class 'numpy.ndarray'>
+    shape= (1, 3) dtype= float32
+    sample= [0.6330074071884155, 0.0204428993165493, 0.3465496897697449]
+
+=== DEBUG: C:\Users\oliver\Downloads\sad facial expression\pexels-timur-weber-8560795.jpg
+
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 190ms/step
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 222ms/step
+RAW TYPE: <class 'dict'>
+DICT output keys: ['sequential_3']
+  key=sequential_3 type=<class 'numpy.ndarray'>
+    shape= (1, 3) dtype= float32
+    sample= [0.00043139312765561044, 0.0001562566467327997, 0.9994122982025146]
+
+=== DEBUG: C:\Users\oliver\Downloads\happy facial expression\gloomy-grumpy-bearded-guy-look-disappointed.jpg
+
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 195ms/step
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 223ms/step
+RAW TYPE: <class 'dict'>
+DICT output keys: ['sequential_3']
+  key=sequential_3 type=<class 'numpy.ndarray'>
+    shape= (1, 3) dtype= float32
+    sample= [0.0015491697704419494, 0.9329086542129517, 0.06554225087165833]
+
+=== DEBUG: C:\Users\oliver\Downloads\happy facial expression\pexels-andersonguerra-1197132.jpg
+
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 152ms/step
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 168ms/step
+RAW TYPE: <class 'dict'>
+DICT output keys: ['sequential_3']
+  key=sequential_3 type=<class 'numpy.ndarray'>
+    shape= (1, 3) dtype= float32
+    sample= [0.01672665774822235, 0.08497364819049835, 0.8982996940612793]
+
+=== DEBUG: C:\Users\oliver\Downloads\happy facial expression\pexels-anete-lusina-5721335.jpg
+
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 178ms/step
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 206ms/step
+RAW TYPE: <class 'dict'>
+DICT output keys: ['sequential_3']
+  key=sequential_3 type=<class 'numpy.ndarray'>
+    shape= (1, 3) dtype= float32
+    sample= [0.7057669162750244, 0.05886493995785713, 0.23536819219589233]
+
+=== DEBUG: C:\Users\oliver\Downloads\happy facial expression\pexels-brett-sayles-1073097.jpg
+
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 193ms/step
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 206ms/step
+RAW TYPE: <class 'dict'>
+DICT output keys: ['sequential_3']
+  key=sequential_3 type=<class 'numpy.ndarray'>
+    shape= (1, 3) dtype= float32
+    sample= [0.34683796763420105, 0.6337486505508423, 0.01941334456205368]
+
+=== DEBUG: C:\Users\oliver\Downloads\happy facial expression\pexels-chizon-34810209.jpg
+
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 206ms/step
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 238ms/step
+RAW TYPE: <class 'dict'>
+DICT output keys: ['sequential_3']
+  key=sequential_3 type=<class 'numpy.ndarray'>
+    shape= (1, 3) dtype= float32
+    sample= [0.0030798010993748903, 0.002712111221626401, 0.9942080974578857]
+
+=== DEBUG: C:\Users\oliver\Downloads\happy facial expression\pexels-cottonbro-3206079.jpg
+
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 184ms/step
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 207ms/step
+RAW TYPE: <class 'dict'>
+DICT output keys: ['sequential_3']
+  key=sequential_3 type=<class 'numpy.ndarray'>
+    shape= (1, 3) dtype= float32
+    sample= [0.2410644143819809, 0.4955684542655945, 0.2633671760559082]
+
+=== DEBUG: C:\Users\oliver\Downloads\happy facial expression\pexels-creationhill-1681010.jpg
+
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 185ms/step
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 206ms/step
+RAW TYPE: <class 'dict'>
+DICT output keys: ['sequential_3']
+  key=sequential_3 type=<class 'numpy.ndarray'>
+    shape= (1, 3) dtype= float32
+    sample= [0.12487968802452087, 0.555205225944519, 0.31991511583328247]
+
+=== DEBUG: C:\Users\oliver\Downloads\happy facial expression\pexels-danxavier-1212984.jpg
+
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 135ms/step
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 153ms/step
+RAW TYPE: <class 'dict'>
+DICT output keys: ['sequential_3']
+  key=sequential_3 type=<class 'numpy.ndarray'>
+    shape= (1, 3) dtype= float32
+    sample= [0.13532951474189758, 0.08839000016450882, 0.7762804627418518]
+
+=== DEBUG: C:\Users\oliver\Downloads\happy facial expression\pexels-divinetechygirl-1181391.jpg
+
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 174ms/step
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 197ms/step
+RAW TYPE: <class 'dict'>
+DICT output keys: ['sequential_3']
+  key=sequential_3 type=<class 'numpy.ndarray'>
+    shape= (1, 3) dtype= float32
+    sample= [0.17944073677062988, 0.07071079313755035, 0.749848484992981]
+
+=== DEBUG: C:\Users\oliver\Downloads\happy facial expression\pexels-elsimage-1405963.jpg
+
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 185ms/step
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 214ms/step
+RAW TYPE: <class 'dict'>
+DICT output keys: ['sequential_3']
+  key=sequential_3 type=<class 'numpy.ndarray'>
+    shape= (1, 3) dtype= float32
+    sample= [0.024218641221523285, 0.19266538321971893, 0.7831159234046936]
+
+=== DEBUG: C:\Users\oliver\Downloads\happy facial expression\pexels-hannah-nelson-390257-1065084.jpg
+
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 178ms/step
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 206ms/step
+RAW TYPE: <class 'dict'>
+DICT output keys: ['sequential_3']
+  key=sequential_3 type=<class 'numpy.ndarray'>
+    shape= (1, 3) dtype= float32
+    sample= [0.04996630921959877, 0.9499304890632629, 0.00010324759205104783]
+
+=== DEBUG: C:\Users\oliver\Downloads\happy facial expression\pexels-iamikeee-2709388.jpg
+
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 206ms/step
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 236ms/step
+RAW TYPE: <class 'dict'>
+DICT output keys: ['sequential_3']
+  key=sequential_3 type=<class 'numpy.ndarray'>
+    shape= (1, 3) dtype= float32
+    sample= [4.005087248515338e-05, 0.9999220371246338, 3.7900164898019284e-05]
+
+=== DEBUG: C:\Users\oliver\Downloads\happy facial expression\pexels-italo-melo-881954-1786258.jpg
+
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 205ms/step
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 221ms/step
+RAW TYPE: <class 'dict'>
+DICT output keys: ['sequential_3']
+  key=sequential_3 type=<class 'numpy.ndarray'>
+    shape= (1, 3) dtype= float32
+    sample= [0.5820460915565491, 0.00047027357504703104, 0.4174836575984955]
+
+=== DEBUG: C:\Users\oliver\Downloads\happy facial expression\pexels-jean-daniel-1182238.jpg
+
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 125ms/step
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 151ms/step
+RAW TYPE: <class 'dict'>
+DICT output keys: ['sequential_3']
+  key=sequential_3 type=<class 'numpy.ndarray'>
+    shape= (1, 3) dtype= float32
+    sample= [0.04757606238126755, 0.9203928112983704, 0.03203114494681358]
+
+=== DEBUG: C:\Users\oliver\Downloads\happy facial expression\pexels-jeffreyreed-769772.jpg
+
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 183ms/step
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 205ms/step
+RAW TYPE: <class 'dict'>
+DICT output keys: ['sequential_3']
+  key=sequential_3 type=<class 'numpy.ndarray'>
+    shape= (1, 3) dtype= float32
+    sample= [0.0672202855348587, 0.8096171021461487, 0.12316262722015381]
+
+=== DEBUG: C:\Users\oliver\Downloads\happy facial expression\pexels-joshuamckn-3290250.jpg
+
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 164ms/step
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 189ms/step
+RAW TYPE: <class 'dict'>
+DICT output keys: ['sequential_3']
+  key=sequential_3 type=<class 'numpy.ndarray'>
+    shape= (1, 3) dtype= float32
+    sample= [0.09984444826841354, 0.033799756318330765, 0.866355836391449]
+
+=== DEBUG: C:\Users\oliver\Downloads\happy facial expression\pexels-justin-shaifer-501272-1222271.jpg
+
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 203ms/step
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 234ms/step
+RAW TYPE: <class 'dict'>
+DICT output keys: ['sequential_3']
+  key=sequential_3 type=<class 'numpy.ndarray'>
+    shape= (1, 3) dtype= float32
+    sample= [0.05696132779121399, 0.03428329527378082, 0.908755362033844]
+
+=== DEBUG: C:\Users\oliver\Downloads\happy facial expression\pexels-kalz-michael-1277172-6012304.jpg
+
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 183ms/step
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 211ms/step
+RAW TYPE: <class 'dict'>
+DICT output keys: ['sequential_3']
+  key=sequential_3 type=<class 'numpy.ndarray'>
+    shape= (1, 3) dtype= float32
+    sample= [0.5970234274864197, 0.3942503035068512, 0.008726214990019798]
+
+=== DEBUG: C:\Users\oliver\Downloads\happy facial expression\pexels-karola-g-4467687.jpg
+
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 191ms/step
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 223ms/step
+RAW TYPE: <class 'dict'>
+DICT output keys: ['sequential_3']
+  key=sequential_3 type=<class 'numpy.ndarray'>
+    shape= (1, 3) dtype= float32
+    sample= [0.14912906289100647, 0.0006147551466710865, 0.8502562046051025]
+
+=== DEBUG: C:\Users\oliver\Downloads\happy facial expression\pexels-kebs-visuals-742415-3992656.jpg
+
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 158ms/step
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 175ms/step
+RAW TYPE: <class 'dict'>
+DICT output keys: ['sequential_3']
+  key=sequential_3 type=<class 'numpy.ndarray'>
+    shape= (1, 3) dtype= float32
+    sample= [0.16545994579792023, 0.7167120575904846, 0.11782799661159515]
+
+=== DEBUG: C:\Users\oliver\Downloads\happy facial expression\pexels-ketut-subiyanto-4560083.jpg
+
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 161ms/step
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 190ms/step
+RAW TYPE: <class 'dict'>
+DICT output keys: ['sequential_3']
+  key=sequential_3 type=<class 'numpy.ndarray'>
+    shape= (1, 3) dtype= float32
+    sample= [0.00021505127369891852, 3.066484714508988e-05, 0.9997543692588806]
+
+=== DEBUG: C:\Users\oliver\Downloads\happy facial expression\pexels-moose-photos-170195-1036627.jpg
+
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 217ms/step
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 245ms/step
+RAW TYPE: <class 'dict'>
+DICT output keys: ['sequential_3']
+  key=sequential_3 type=<class 'numpy.ndarray'>
+    shape= (1, 3) dtype= float32
+    sample= [0.0073988838121294975, 0.033981017768383026, 0.9586201906204224]
+
+=== DEBUG: C:\Users\oliver\Downloads\happy facial expression\pexels-nappy-936117.jpg
+
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 193ms/step
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 221ms/step
+RAW TYPE: <class 'dict'>
+DICT output keys: ['sequential_3']
+  key=sequential_3 type=<class 'numpy.ndarray'>
+    shape= (1, 3) dtype= float32
+    sample= [0.01995338685810566, 0.002626186702400446, 0.9774203896522522]
+
+=== DEBUG: C:\Users\oliver\Downloads\happy facial expression\pexels-nappy-936119.jpg
+
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 185ms/step
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 201ms/step
+RAW TYPE: <class 'dict'>
+DICT output keys: ['sequential_3']
+  key=sequential_3 type=<class 'numpy.ndarray'>
+    shape= (1, 3) dtype= float32
+    sample= [0.6261687278747559, 0.34382784366607666, 0.03000343218445778]
+
+=== DEBUG: C:\Users\oliver\Downloads\happy facial expression\pexels-olly-712513.jpg
+
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 191ms/step
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 207ms/step
+RAW TYPE: <class 'dict'>
+DICT output keys: ['sequential_3']
+  key=sequential_3 type=<class 'numpy.ndarray'>
+    shape= (1, 3) dtype= float32
+    sample= [0.029491599649190903, 0.2572443187236786, 0.7132641077041626]
+
+=== DEBUG: C:\Users\oliver\Downloads\happy facial expression\pexels-pixabay-415829.jpg
+
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 159ms/step
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 175ms/step
+RAW TYPE: <class 'dict'>
+DICT output keys: ['sequential_3']
+  key=sequential_3 type=<class 'numpy.ndarray'>
+    shape= (1, 3) dtype= float32
+    sample= [0.05950695276260376, 0.040842823684215546, 0.8996501564979553]
+
+=== DEBUG: C:\Users\oliver\Downloads\happy facial expression\pexels-ryutaro-6249817.jpg
+
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 155ms/step
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 170ms/step
+RAW TYPE: <class 'dict'>
+DICT output keys: ['sequential_3']
+  key=sequential_3 type=<class 'numpy.ndarray'>
+    shape= (1, 3) dtype= float32
+    sample= [0.018456270918250084, 0.0019674114882946014, 0.9795763492584229]
+
+=== DEBUG: C:\Users\oliver\Downloads\happy facial expression\pexels-sam-lion-6001808.jpg
+
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 158ms/step
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 180ms/step
+RAW TYPE: <class 'dict'>
+DICT output keys: ['sequential_3']
+  key=sequential_3 type=<class 'numpy.ndarray'>
+    shape= (1, 3) dtype= float32
+    sample= [0.019054710865020752, 0.980780303478241, 0.0001650030753808096]
+
+=== DEBUG: C:\Users\oliver\Downloads\happy facial expression\pexels-samad-ismayilov-231721-735551.jpg
+
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 159ms/step
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 189ms/step
+RAW TYPE: <class 'dict'>
+DICT output keys: ['sequential_3']
+  key=sequential_3 type=<class 'numpy.ndarray'>
+    shape= (1, 3) dtype= float32
+    sample= [0.04982566460967064, 0.29855188727378845, 0.6516225337982178]
+
+=== DEBUG: C:\Users\oliver\Downloads\happy facial expression\pexels-soc-nang-d-ng-2150345854-34810258.jpg
+
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 132ms/step
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 147ms/step
+RAW TYPE: <class 'dict'>
+DICT output keys: ['sequential_3']
+  key=sequential_3 type=<class 'numpy.ndarray'>
+    shape= (1, 3) dtype= float32
+    sample= [0.3943925201892853, 9.845642125583254e-06, 0.6055976748466492]
+
+=== DEBUG: C:\Users\oliver\Downloads\happy facial expression\pexels-valeria-ushakova-603898-3094216.jpg
+
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 145ms/step
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 177ms/step
+RAW TYPE: <class 'dict'>
+DICT output keys: ['sequential_3']
+  key=sequential_3 type=<class 'numpy.ndarray'>
+    shape= (1, 3) dtype= float32
+    sample= [0.21773062646389008, 0.7353958487510681, 0.04687357693910599]
+
+=== DEBUG: C:\Users\oliver\Downloads\happy facial expression\pexels-whoiswasiq-2641773.jpg
+
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 153ms/step
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 169ms/step
+RAW TYPE: <class 'dict'>
+DICT output keys: ['sequential_3']
+  key=sequential_3 type=<class 'numpy.ndarray'>
+    shape= (1, 3) dtype= float32
+    sample= [0.04946230351924896, 0.4974730312824249, 0.4530646502971649]
+
+=== DEBUG: C:\Users\oliver\Downloads\suprised facial expression\pexels-olly-3764398.jpg
+
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 186ms/step
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 217ms/step
+RAW TYPE: <class 'dict'>
+DICT output keys: ['sequential_3']
+  key=sequential_3 type=<class 'numpy.ndarray'>
+    shape= (1, 3) dtype= float32
+    sample= [0.0012972916010767221, 0.5391474366188049, 0.45955532789230347]
+
+=== DEBUG: C:\Users\oliver\Downloads\suprised facial expression\pexels-olly-3808001.jpg
+
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 192ms/step
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 206ms/step
+RAW TYPE: <class 'dict'>
+DICT output keys: ['sequential_3']
+  key=sequential_3 type=<class 'numpy.ndarray'>
+    shape= (1, 3) dtype= float32
+    sample= [0.021754547953605652, 0.9006889462471008, 0.07755649089813232]
+
+=== DEBUG: C:\Users\oliver\Downloads\suprised facial expression\pexels-olly-3851877.jpg
+
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 189ms/step
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 205ms/step
+RAW TYPE: <class 'dict'>
+DICT output keys: ['sequential_3']
+  key=sequential_3 type=<class 'numpy.ndarray'>
+    shape= (1, 3) dtype= float32
+    sample= [0.19284944236278534, 0.7802770733833313, 0.026873495429754257]
+
+=== DEBUG: C:\Users\oliver\Downloads\suprised facial expression\pexels-olly-3978572.jpg
+
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 184ms/step
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 213ms/step
+RAW TYPE: <class 'dict'>
+DICT output keys: ['sequential_3']
+  key=sequential_3 type=<class 'numpy.ndarray'>
+    shape= (1, 3) dtype= float32
+    sample= [0.0001719117135507986, 0.8478436470031738, 0.15198449790477753]
+
+=== DEBUG: C:\Users\oliver\Downloads\suprised facial expression\pexels-shvets-production-6975058.jpg
+
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 175ms/step
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 207ms/step
+RAW TYPE: <class 'dict'>
+DICT output keys: ['sequential_3']
+  key=sequential_3 type=<class 'numpy.ndarray'>
+    shape= (1, 3) dtype= float32
+    sample= [0.0001320354058407247, 0.9902860522270203, 0.009581901133060455]
