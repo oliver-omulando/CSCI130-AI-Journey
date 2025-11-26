@@ -1,0 +1,12 @@
+# Training Progress Log
+# This file records the Q-learning agent's improvement during training
+# Run train_agent.py and redirect output here to save training statistics
+#
+# Example: python train_agent.py > results/training_progress.txt
+#
+# The log will show:
+# - Episode checkpoints (100, 500, 1000, 5000, 10000)
+# - Win rate percentage
+# - Number of wins, losses, and ties
+# - States learned by the AI
+# - Average Q-value progression
